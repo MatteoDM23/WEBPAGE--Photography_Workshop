@@ -109,7 +109,7 @@ header p {
 .wrapper {text-align: center;}
 .wrapper h4 {margin-top: 10px;}
 .wrapper h3 {margin-top: 10px;}
-.icon-big {
+.wrapper .icon-big {
     font-size: 350%;
     display: inline-block;
     color: #fc9e23;
@@ -138,4 +138,17 @@ ul {padding: 5px 0 0 35px;list-style-type: square;}
 
 /*  section 5: "contacts" */
 .contacts {background-color: #504034;}
+.contacts p {color: #FFE5BF;}
 .contacts h2 {color:#FFE5BF;}
+.profile_box {padding: 10px 0 0 50px;}
+.details {padding: 10px 0 0 30px}
+.icon {color: #FFE5BF;}
+
+/* section 6: footer */
+footer {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 16, 3, 0.5)), to(rgba(0, 0, 0, 0.8))), url(img/belvedere.jpg);
+    height: 65vh; 
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+}
