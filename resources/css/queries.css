@@ -1,0 +1,128 @@
+/* --- width < 1201px --- */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {max-width: 100%;padding: 0 2% 0 2%;}
+    .row {padding: 0 2% 0 2%;}
+    /*  section 1: "section-features" */
+    html {font-size: 19px;}
+    /*  section 6: "section-plans" */
+    .plan-box li {font-size: 80%;}
+}
+
+@media only screen and (max-width: 1102px) {
+    .wrapper h3 {font-size: 95%;font-weight:300;}
+}
+
+@media only screen and (max-width: 1097px) {
+    h1 {font-size: 170%;}
+}
+
+@media only screen and (max-width: 1035px) {
+    .plan-box li {font-size: 70%;}
+}
+
+
+/* --- width < 1024px --- */
+@media only screen and (max-width: 1023px) {
+    /* global */
+    html {font-size: 18px;}
+    section {padding: 40px 0px 40px 0px;}
+    h1 {font-size: 180%;}
+    a {font-size: 90%;}
+    /* header */
+    .main-nav li {margin-left: 30px; font-size: 90%; }
+    .hero-text-box {max-width: 100%; padding: 0 2% 0 2%;}
+    .btn:link, .btn:visited, input[type=submit] {padding: 10px 25px 10px 25px;}
+    /* section 1: "section-features" */
+    .wrapper {padding: 3%;}
+    /* section 3: "section-steps" */
+    .app-screen {width: 45%;}
+    .btn-app img {margin-top: 25px; margin-right: 10px;}
+    .work-step div {padding-top:10px; margin-right: 15px; font-size:130%;}
+    .step-box:first-child {text-align: right;padding-right: 5%;}
+    .step-box:last-child {padding-left: 0;}
+    /*  section 4: "section-cities" */
+    .city-feature {line-height: 110%;}
+    .wrapper h3 {font-size: 100%;}
+    .city-feature p {display: inline-block; margin-left: 5px; font-size: 75%;}
+    .icon-small {width: 20px; font-size: 110%;}
+    /*  section 6: "section-plans" */
+    .plan-box h3 {margin-bottom: 10px;}
+    .plan-price {font-size: 260%;}
+    .plan-price-meal {font-size: 75%;}
+    .plan-box li {font-size: 70%;}
+    .plan-box div {padding: 20px 0px 20px 20px;}
+    /*  section 7: "section-form" */
+    .section-form {width: 80%; font-size: 90%;}
+    /*  footer */
+    .footer-nav li, .social-links li {margin-right: 10px;}
+}
+
+@media only screen and (max-width: 817px) {
+    .plan-box div {padding: 20px 0px 20px 10px;}
+}
+
+
+/* --- width < 768px --- */
+@media only screen and (max-width: 767px) {
+    /* global */
+    html {font-size: 16px;}
+    section {padding: 30px 0px 30px 0px;}
+    .col {width: 100%; padding: 0 10% 0 10%;}
+    .wrapper {margin-bottom: 15px;}
+    h1 {font-size: 115%;}
+    h2 {font-size: 140%;}
+    p {text-align: justify;}
+    /* header */
+    header {height: 80vh;}
+    .logo {height: 70px; margin-top: 10px; }
+    .btn:link, .btn:visited, input[type=submit] {padding: 8px 15px 8px 15px;}
+    .hero-text-box {top: 40%;}
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    .main-nav {float: left; margin-top: 30px; margin-left: 25px; }
+    .main-nav li { display: block; }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    .sticky .main-nav { margin-top: 10px; }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    /* section 1: "section-features" */
+    .long-copy {width: 90%; margin-left: 5%;}
+    /* section 3: "section-steps" */
+    .step-box:first-child {text-align: center;}
+    .app-screen {width: 40%;}
+    .step-box:last-child {margin-top: 30px; padding-left: 20px;}
+    .work-step {margin-bottom: 30px;}
+    .work-step div {
+        height: 40px; 
+        width: 40px; 
+        margin-right: none; 
+        font-size: 110%;}
+    .btn-app img {margin-top: 10px;}
+    /*  section 4: "section-cities" */
+    .city-feature {line-height: 100%;}
+    .wrapper h3 {font-size: 120%; margin-bottom: 10px;}
+    .city-feature p {font-size: 85%;}
+    .city-feature img {margin-bottom: 10px;}
+    /* section 5: "section-testimonials" */
+    blockquote {margin-bottom: 20px;}
+    cite {margin-top: 10px;}
+    /* section 6: "section-plans" */
+    .plan-box {width: 70%; margin-left: 15%; margin-bottom: 15px;}
+    .plan-box li {font-size: 80%;}
+    /* section 7: "section-form" */
+    .section-form {width: 100%;}
+    .section-form .row {margin-bottom: 10px;}
+    .section-form .col {padding: 0 10% 3px 10%;}
+}
+/* small mobiles (from 0px to 480px, which is the size of an iPhone 4) */
+@media only screen and (max-width: 480px) {
+
+}
