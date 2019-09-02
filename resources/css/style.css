@@ -1,0 +1,141 @@
+/***  BASIC SETUP ***/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+html {
+    background-color: #ffffff;
+    color: #222222;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/***  REUSABLE COMPONENTS ***/
+section {
+    padding: 70px 0px 70px 0px;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;  
+}
+.paragraph {
+    position: relative; 
+    left: 2%;
+    padding: 20px 0 20px 0;
+}
+
+
+/*** BUTTONS ***/
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block; 
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFF4DE; 
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: hsl(96, 88%, 36%);
+    margin-right: 15px;
+}
+.btn-ghost:link,
+.btn-ghost:visited {
+    background-color: #d65804;
+    color: #FFF4DE;
+}
+
+
+/*** HEADINGS ***/
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h1 {
+    margin: 0;
+    color: #FFF4DE;
+    font-size: 240%; 
+    word-spacing: 4px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+
+/*** PARAGRAPHS ***/
+p {
+    font-weight: 300;
+    font-size: 85%;
+    line-height: 150%
+}
+
+
+
+/*  ************************************************************************************************************************* */
+/***  HEADER ***/
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 32, 0, 0.7)), to(rgba(97, 58, 0, 0.2))), url(img/header_background.jpg);
+    height: 100vh; 
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+}
+.hero-text-box {
+    position: absolute; 
+    max-width: 1140px;
+    top: 35%;
+    left: 30%;
+    -webkit-transform: translate(-30%, -50%);
+    transform: translate(-30%, -50%); 
+}
+header p {
+    color: #FFF4DE;
+}
+.call-to-action-buttons {
+    margin-top: 30px;
+}
+
+
+/*  section 1: "features" */
+.box {padding: 1%;}
+.wrapper {text-align: center;}
+.wrapper h4 {margin-top: 10px;}
+.wrapper h3 {margin-top: 10px;}
+.icon-big {
+    font-size: 350%;
+    display: inline-block;
+    color: #fc9e23;
+    margin-bottom: 5px;
+}
+
+
+/*  section 2: "introduction" */
+.introduction {background-color: #FFE5BF;}
+
+
+/*  section 3: "guides" */
+.guides {background-color: #E1DDD2;}
+.guides img {
+    border-radius: 50%;
+    height: 120px;
+    margin: 0px 25px 0px 55px; 
+}
+.profile {padding-top: 20px;}
+
+
+/*  section 4: "equipment" */
+.equipment {background-color: #FFE5BF;}
+ul {padding: 5px 0 0 35px;list-style-type: square;}
+
+
+/*  section 5: "contacts" */
+.contacts {background-color: #504034;}
+.contacts h2 {color:#FFE5BF;}
